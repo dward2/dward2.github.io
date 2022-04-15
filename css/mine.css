@@ -2,6 +2,48 @@
   background: #c8cad0;
   font-size: 2em;
   text-align: center;
+  margin: 0 0;
 }
 
+.heading{
+  font-size: 2em;
+  font-family: Verlag, sans-serif;
+  font-weight: bold;
+  margin: 0 0;
+}
 
+.heading_remove_bold{
+  font-family: Verlag, sans-serif;
+  font-weight: normal;
+  margin: 0 0;
+
+}
+
+.heading_unbold{
+  font-family: nobel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2em;
+  margin: 0 0;
+}
+
+.paragraph_unindent{
+  font-size: 1.8em;
+  font-family: 'Verlag', sans-serif;
+  margin: 0 0em;
+}
+
+.paragraph_indent{
+  font-family: nobel, sans-serif;
+  font-weight: 30;
+  font-style: normal;
+  font-size: 1.8em;
+  margin: 0 1em;
+}
+
+.hymn{
+  font-size: 2em;
+  font-family: Verlag, sans-serif;
+  font-weight: bold;
+  margin: 0 1em;
+}
