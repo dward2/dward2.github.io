@@ -5,6 +5,19 @@
   margin: 0 0;
 }
 
+.dateline{
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  margin: 0 0;
+  color: gray;
+}
+
+.address{
+  font-size: 2em;
+  text-align: center;
+}
+
 .heading{
   font-size: 2em;
   font-family: Verlag, sans-serif;
