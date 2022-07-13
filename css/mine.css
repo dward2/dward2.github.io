@@ -21,7 +21,7 @@ h1 {
 }
 
 .address{
-  font-size: 2em;
+  font-size: min(4vw, 2em);
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ h1 {
   font-family: nobel, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 5vw;
+  font-size: min(5vw, 2em);
 }
 
 .paragraph_unindent{
