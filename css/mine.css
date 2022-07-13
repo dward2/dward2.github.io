@@ -100,9 +100,7 @@ ul.leaders span + span {
     background: white}
 
 .center-fit {
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+  width: 100%;
 }
 
 .notbold{
