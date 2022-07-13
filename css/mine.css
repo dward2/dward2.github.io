@@ -1,3 +1,9 @@
+h1 {
+  font-family: 'Verlag', sans-serif;
+  font-variant: small-caps;
+  text-align: center;
+}
+
 .separator{
   background: #c8cad0;
   font-size: 2em;
@@ -39,6 +45,13 @@
   font-style: normal;
   font-size: 2em;
   margin: 0 0;
+}
+
+.front_paragraph{
+  font-family: nobel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 5vw;
 }
 
 .paragraph_unindent{
