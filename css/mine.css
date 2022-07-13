@@ -26,7 +26,7 @@ h1 {
 }
 
 .heading{
-  font-size: 2em;
+  font-size: min(6vw, 2em);
   font-family: Verlag, sans-serif;
   font-weight: bold;
   margin: 0 0;
@@ -43,7 +43,7 @@ h1 {
   font-family: nobel, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 2em;
+  font-size: min(6vw, 2em);
   margin: 0 0;
 }
 
@@ -55,7 +55,7 @@ h1 {
 }
 
 .paragraph_unindent{
-  font-size: 1.8em;
+  font-size: min(5vw, 1.8em);
   font-family: 'Verlag', sans-serif;
   margin: 0 0em;
 }
@@ -64,12 +64,12 @@ h1 {
   font-family: nobel, sans-serif;
   font-weight: 30;
   font-style: normal;
-  font-size: 1.8em;
+  font-size: min(5vw, 1.8em);
   margin: 0 1em;
 }
 
 .hymn{
-  font-size: 2em;
+  font-size: min(5vw, 1.8em);
   font-family: Verlag, sans-serif;
   font-weight: bold;
   margin: 0 1em;
@@ -84,7 +84,7 @@ ul {
   font-family: Nobel, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.8em;
+  font-size: min(5vw, 1.8em);
 }
 ul.leaders{
    max-width: 100%;
