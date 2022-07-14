@@ -3,5 +3,4 @@ function DecreaseFont(){
   var curFontSize = parseInt($('#b_body').css('font-size'));
   curFontSize = curFontSize + 2;
   $('#b_body').css('font-size', curFontSize);
-  window.alert(curFontSize);
 }
