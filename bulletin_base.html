@@ -26,6 +26,8 @@
 
   <meta name="theme-color" content="#fafafa">
 
+  <!-- Added to help with insert -->
+
   <!-- Default body size established here to allow for user changes -->
   <style>
     body {
@@ -35,13 +37,23 @@
 
 </head>
 <body>
+<div id="b_body">
+
   <!-- Dashed Color Divider -->
   <img class="color-dash-divider" src="UUMC-Divider.JPG" alt="Divider">
-  <div id="b_body">
+  <br>
+  <!-- Front Image -->
+  <div id="front_image_include"></div>
     Words
     <h1>Header</h1>
+
     <p class="my_para">My Paragarph stuff</p>
-  </div>
+</div>
+
+
+
+
+
   <!-- Footer with buttons-->
   <div id="footer">
     <button role="button" id="decrease_font" onclick="DecreaseFont()">
@@ -60,5 +72,12 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <!-- JS to load in the front image called above -->
+  <script>
+    $(function(){
+      $("#front_image_include").load("front_image.html");
+    });
+  </script>
+
 </body>
 </html>
