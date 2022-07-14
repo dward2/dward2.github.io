@@ -26,15 +26,23 @@
 
   <meta name="theme-color" content="#fafafa">
 
+  <!-- Default body size established here to allow for user changes -->
+  <style>
+    body {
+      font-size: 1.0em;
+    }
+  </style>
+
 </head>
 <body>
   <!-- Dashed Color Divider -->
   <img class="color-dash-divider" src="UUMC-Divider.JPG" alt="Divider">
+  <p id="b_body">
   Words
-
+  </p>
   <!-- Footer with buttons-->
   <div id="footer">
-    <button role="button" id="decrease_font">
+    <button role="button" id="decrease_font" onclick="DecreaseFont()">
       Decrease
     </button>
         <button role="button" id="reset_font">
@@ -47,6 +55,7 @@
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 </body>
