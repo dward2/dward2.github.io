@@ -11,3 +11,4 @@ function DecreaseFont(){
   curFontSize = curFontSize - 2;
   $('#b_body').css('font-size', curFontSize);
 }
+
