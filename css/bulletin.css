@@ -19,3 +19,32 @@ button{
 .my_para{
   font-size: 2.0em;
 }
+
+.dateline{
+  font-size: 0.65em;
+  font-style: italic;
+  text-align: center;
+  margin: 0 0;
+  color: gray;
+}
+
+h1 {
+  font-size: 1.1em;
+  font-family: 'Verlag', sans-serif;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.front_paragraph{
+  font-family: nobel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.65em;
+}
+
+.address{
+  font-size: 0.5em
+;
+  text-align: center;
+}
+
