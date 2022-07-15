@@ -48,3 +48,86 @@ h1 {
   text-align: center;
 }
 
+.separator{
+  background: #c8cad0;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0;
+}
+
+.heading{
+  font-size: 0.7em;
+  font-family: Verlag, sans-serif;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+.heading_unbold{
+  font-family: nobel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.7em;
+  margin: 0 0;
+}
+
+
+.paragraph_unindent{
+  font-size: 0.6em;
+  font-family: 'Verlag', sans-serif;
+  margin: 0 0em;
+}
+
+.paragraph_indent{
+  font-family: nobel, sans-serif;
+  font-weight: 30;
+  font-style: normal;
+  font-size: 0.6em;
+  margin: 0 1em;
+}
+
+.hymn{
+  font-size: 0.6em;
+  font-family: Verlag, sans-serif;
+  font-weight: bold;
+  margin: 0 1em;
+}
+
+ul {
+  font-family: Nobel, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: min(4vw, 1.8em);
+  /* The font size in the roster will not change with buttons */
+}
+ul.leaders{
+   max-width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white}
+
+hr{
+  height: 2px;
+  background-color: black;
+}
+
